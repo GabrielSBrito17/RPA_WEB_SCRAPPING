@@ -2,6 +2,10 @@
 
 Projeto de Web Scrapping com Python utilizando o módulo Selenium para automações de rotinas e processos.
 
+# Primeiros passos:
+
+Extrair o arquivo ```Projeto_RPA``` dentro de uma pasta local em seu computador. Logo após, pode baixar o Python no link ```https://www.python.org/``` e instalar para reproduzir o projeto.
+
 #  Módulos necessários:
 
 Necessário ter instalado junto ao Python as seguintes bibliotecas:
@@ -20,6 +24,7 @@ pip install BeautifulSoup
 pip install selenium
 pip install json
 pip install os
+pip install flask
 ```
 # Executando o "Robô":
 
