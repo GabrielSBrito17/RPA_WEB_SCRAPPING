@@ -95,12 +95,6 @@ Com a API rodando podemos utilizar filtro para selecionar os notebooks pela marc
     "Preco": "$321.94"
   }, 
   {
-    "Comentarios": "6 reviews", 
-    "Descricao": "Asus VivoBook 15 X540NA-GQ008T Chocolate Black, 15.6\" HD, Pentium N4200, 4GB, 500GB, Windows 10 Home, En kbd", 
-    "Nome": "Lenovo V110-15IA...", 
-    "Preco": "$356.49"
-  }, 
-  {
     "Comentarios": "12 reviews", 
     "Descricao": "Lenovo ThinkPad E31-80, 13.3\" HD, Celeron 3855U 1.6GHz, 4GB, 128GB SSD, Windows 10 Home", 
     "Nome": "Lenovo ThinkPad...", 
