@@ -10,7 +10,7 @@ Extrair o arquivo ```Projeto_RPA``` dentro de uma pasta local em seu computador.
 
 Necessário ter instalado junto ao Python as seguintes bibliotecas:
 ```
-Time, Pandas, Requests, BeautifulSoup, Selenium, Json, Os e Flaks
+Time, Pandas, Requests, BeautifulSoup, Selenium, Json, Os e Flask.
 ```
 # Instalando os módulos:
 Para instalar os módulos, basta acessar o terminal Python e executar o comando pip install "nome do módulo".
