@@ -40,8 +40,77 @@ Após o nosso "Robô" criar o arquivo ``` notebooks.json ```, iremos executar o 
 
 # Dados da API:
 
-A nossa API irá criar um servidor local ``` http://127.0.0.1:5000 ``` a principio vai aparecer uma tela de "Erro", mas basta executa-lo da seguinte forma ``` http://127.0.0.1:5000/notebooks ``` que irá aparecer os dados do nosso ``` JSON ```.
+A nossa API irá criar um servidor local ``` http://127.0.0.1:5000 ``` a principio vai aparecer uma tela de "Erro", mas basta executa-lo da seguinte forma ``` http://127.0.0.1:5000/notebooks ``` que irá aparecer os dados do nosso ``` JSON ```:
+
+```
+{
+    "Comentarios": "14 reviews", 
+    "Descricao": "Asus VivoBook X441NA-GA190 Chocolate Black, 14\", Celeron N3450, 4GB, 128GB SSD, Endless OS, ENG kbd", 
+    "Nome": "Asus VivoBook X4...", 
+    "Preco": "$295.99"
+  }, 
+  {
+    "Comentarios": "8 reviews", 
+    "Descricao": "Prestigio SmartBook 133S Dark Grey, 13.3\" FHD IPS, Celeron N3350 1.1GHz, 4GB, 32GB, Windows 10 Pro + Office 365 1 gadam", 
+    "Nome": "Prestigio SmartB...", 
+    "Preco": "$299.00"
+  }, 
+  {
+    "Comentarios": "12 reviews", 
+    "Descricao": "Prestigio SmartBook 133S Gold, 13.3\" FHD IPS, Celeron N3350 1.1GHz, 4GB, 32GB, Windows 10 Pro + Office 365 1 gadam", 
+    "Nome": "Prestigio SmartB...", 
+    "Preco": "$299.00"
+  }, 
+  {
+    "Comentarios": "2 reviews", 
+    "Descricao": "15.6\", Pentium N3520 2.16GHz, 4GB, 500GB, Linux", 
+    "Nome": "Aspire E1-510", 
+    "Preco": "$306.99"
+  }, 
+  {
+    "Comentarios": "5 reviews", 
+    "Descricao": "Lenovo V110-15IAP, 15.6\" HD, Celeron N3350 1.1GHz, 4GB, 128GB SSD, Windows 10 Home", 
+    "Nome": "Lenovo V110-15IA...", 
+    "Preco": "$321.94"
+  }, 
+  {
+    "Comentarios": "6 reviews", 
+    "Descricao": "Asus VivoBook 15 X540NA-GQ008T Chocolate Black, 15.6\" HD, Pentium N4200, 4GB, 500GB, Windows 10 Home, En kbd", 
+    "Nome": "Lenovo V110-15IA...", 
+    "Preco": "$356.49"
+  }, 
+
+```
 
 # Filtrando dados na API:
 
-Com a API rodando podemos utilizar filtro para selecionar os notebooks pela marca. Por exemplo ``` http://127.0.0.1:5000/notebooks/Lenovo ```e ele trás os dados referente aos notebooks da marca Lenovo.
+Com a API rodando podemos utilizar filtro para selecionar os notebooks pela marca. Por exemplo ``` http://127.0.0.1:5000/notebooks/Lenovo ```e ele trás os dados referente aos notebooks da marca Lenovo:
+
+```
+
+{
+    "Comentarios": "5 reviews", 
+    "Descricao": "Lenovo V110-15IAP, 15.6\" HD, Celeron N3350 1.1GHz, 4GB, 128GB SSD, Windows 10 Home", 
+    "Nome": "Lenovo V110-15IA...", 
+    "Preco": "$321.94"
+  }, 
+  {
+    "Comentarios": "6 reviews", 
+    "Descricao": "Asus VivoBook 15 X540NA-GQ008T Chocolate Black, 15.6\" HD, Pentium N4200, 4GB, 500GB, Windows 10 Home, En kbd", 
+    "Nome": "Lenovo V110-15IA...", 
+    "Preco": "$356.49"
+  }, 
+  {
+    "Comentarios": "12 reviews", 
+    "Descricao": "Lenovo ThinkPad E31-80, 13.3\" HD, Celeron 3855U 1.6GHz, 4GB, 128GB SSD, Windows 10 Home", 
+    "Nome": "Lenovo ThinkPad...", 
+    "Preco": "$404.23"
+  }, 
+  {
+    "Comentarios": "9 reviews", 
+    "Descricao": "Lenovo V110-15ISK, 15.6\" HD, Core i3-6006U, 8GB, 128GB SSD, Windows 10 Home", 
+    "Nome": "Lenovo V110-15IS...", 
+    "Preco": "$409.63"
+  }, 
+
+```
